@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.title {
+    background: antiquewhite;
+    height: 80px;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    padding-top: 20px;
+}
+li {
+    margin: 15px;
+}
+li a{
+    text-decoration: none;
+    color: cadetblue;
+    padding: 10px;
+    font-size: 25px;
+}
+li a:hover {
+    color: rgb(25, 61, 62);
+}
