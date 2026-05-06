@@ -3,7 +3,42 @@
     margin: 0;
     padding: 0;
 }
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Overpass Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/overpass-mono-v21-latin-700.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Notable';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/notable-v20-latin-regular.woff2') format('woff2');
+}
+
+body {
+    font-family: 'Overpass Mono', monospace;
+}
+
+.main-container{
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 990px;
+
+    display: flex;
+    flex-direction: column;
+    
+}
 .title {
+    font-family: 'Notable';
+    letter-spacing: 3px;
     background: antiquewhite;
     height: 80px;
 }
@@ -13,12 +48,19 @@ h1 {
     text-align: center;
 }
 
+.links-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
 ul {
     text-align: center;
     padding-top: 20px;
 }
 li {
     margin: 15px;
+    list-style: none;
 }
 li a{
     text-decoration: none;
