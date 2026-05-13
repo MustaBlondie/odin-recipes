@@ -126,3 +126,9 @@ body {
   background: rgba(0,0,0,0.5);
 }
 }
+.recipe-form-title h2 {
+  font-size: 30px;
+}
+.recipe-form-bigger-title{
+  font-size: 100px;
+}
