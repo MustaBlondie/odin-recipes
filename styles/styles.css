@@ -28,14 +28,7 @@ body {
   margin: 0 auto;
   max-width: 1100px;
 }
-.container {
-  margin: 0 auto;
-  padding: 10px;
-  max-width: 990px;
 
-  display: flex;
-  flex-direction: column;
-}
 .title {
   width: 100%;
   padding: 3px;
@@ -53,13 +46,12 @@ body {
 .main-title {
   font-family: "Notable";
   letter-spacing: 3px;
-  font-size: 33px;
-  text-align: left;
+  font-size: 50px;
 }
 .main-p {
-    margin-top: 10px;
-    font-size: 1.4rem;
-    text-align: center;
+  margin-top: 10px;
+  font-size: 1.4rem;
+  text-align: center;
 }
 
 .links-container {
@@ -67,7 +59,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-
 }
 
 .link-recipe-container {
@@ -84,7 +75,7 @@ body {
   right: 0;
   bottom: 0;
   display: none;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .link-recipe-container a {
@@ -96,39 +87,56 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-   width: 100%;
+  width: 100%;
   height: 100%;
- 
 }
 
 .link-recipe-container:hover .a-container {
-  display: block; 
+  display: block;
 }
 
-.link-recipe-container  a:hover {
+.link-recipe-container a:hover {
   color: rgb(255, 255, 255);
 }
 
 .img-link-recipe {
   display: block;
   width: 100%;
-  height: auto; 
+  height: auto;
   aspect-ratio: 16 / 9;
   object-fit: cover;
 }
 
-@media (max-width: 768px) {
-  .links-container {
-    flex-direction: column;  /* Cambia de row a column */
-  }
-  .a-container {
-  display: block;
-  background: rgba(0,0,0,0.5);
-}
+.add-recipe-form {
+  padding: 20px 15px;
 }
 .recipe-form-title h2 {
   font-size: 30px;
 }
-.recipe-form-bigger-title{
+.recipe-form-bigger-title {
   font-size: 100px;
+  text-transform: uppercase;
+  line-height: 0.85;
 }
+.recipe-form-title p {
+  padding: 15px 5px;
+}
+
+@media (max-width: 768px) {
+
+  .main-title {
+  font-size: 30px;
+}
+  .links-container {
+    flex-direction: column;
+  }
+  .a-container {
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .recipe-form-bigger-title {
+    font-size: 80px;
+  }
+}
+
+
