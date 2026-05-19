@@ -124,6 +124,33 @@ body {
   padding: 15px 5px;
 }
 
+.recipe-button-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.recipe-button-container p{
+  font-size: 18px;
+}
+
+.form-botton-link {
+  padding: 12px 24px;
+  background: #832e01;
+  color: rgb(249, 239, 220);
+  text-decoration: none;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 18px;
+  width: fit-content;
+}
+
+
+.form-botton-link:hover {
+  background: #140b06;
+  color: rgb(245, 228, 198);
+}
+
 /* MAIN CONTAINER END */
 
 /* RECIPE PAGES */
@@ -142,12 +169,12 @@ body {
 .botton-home:hover,
 .botton-home:active {
   color: rgb(107, 48, 2);
-  text-decoration: none; 
+  text-decoration: none;
   margin-top: 10px;
 }
 
 .botton-home i {
-   font-size: 24px;
+  font-size: 24px;
 }
 
 .hero-recipe {
@@ -198,15 +225,15 @@ body {
     text-align: center;
     font-size: 35px;
   }
-  .recipe-origin-title{
+  .recipe-origin-title {
     font-size: 18px;
     text-align: center;
     margin-top: 15px;
   }
-  .recipe-decription{
-  font-size: 16px;
+  .recipe-decription {
+    font-size: 16px;
   }
-  .img-and-p{
+  .img-and-p {
     flex-direction: column;
     gap: 20px;
   }
